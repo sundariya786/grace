@@ -1,0 +1,48 @@
+<head>
+<!-- <link rel="stylesheet" type="text/css" href="guestlogincss.css"> -->
+ <style type="text/css">
+    #login_form {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 38px; 
+}
+
+body {
+    background-image: url("../images/guest.jpeg");
+}
+</style>
+<div id="login_form" align="center">
+<h3 style="color:Black" align="center">Food Details</h3>
+
+<h4 style="color:Blueviolet" align="left"> Welcome: <h4>
+    <form name="f1" method="post" action="/food" id="f1">
+        <table>
+            <tr>
+                <td><input type="text" name="tof" placeholder="Type Of Food" value="" id="fname" style="height:45px"/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Amount Of Food" name="aof" value="" id="lname" style="height:45px"/>
+                </td>
+            </tr>
+               
+            <tr>
+                <td style="color: darkorange"> City: <select class="dropbtn" name="selectpiker" style="height:45px"> 
+    <option value="" selected>Select</option> 
+    <option value="Raipur">Raipur</option>
+    <option value="Raigarh">Raigarh</option>
+    <option value="Jaipur">Jaipur</option></select></td>
+            </tr>
+        
+       <!--  <tr>
+            <td colspan="2" align="center"><input type="submit" name="login" value="Submit" style="font-size:18px; " /></td>
+        </tr>
+                  -->
+                 </table><br>
+                <button type="submit" name="login" value="submit"  style="width:auto;" ><img src="../images/enter.png" style="width: 140px"></button>
+    </form> 
+</div>
+</head>

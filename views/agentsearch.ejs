@@ -1,0 +1,37 @@
+<head>
+<!-- <link rel="stylesheet" type="text/css" href="guestlogincss.css"> -->
+ <style type="text/css">
+    #login_form {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 38px;
+}
+
+body {
+    background-image: url("../images/guest.jpeg");
+}</style>
+<div id="login_form" align="center">
+<h3 style="color:Black" align="center">Search Food</h3>
+<h5 align="left"> Welcome : <h5>
+    <form name="f1" method="post" action="/foodanduser" id="f1">
+        <table>       
+            <tr>
+                <td> City: <select class="dropbtn" name="selectpicker" style="width: 100px"> 
+    <option name="selected" selected>Select</option> 
+    <option name="Raigarpur">Raipur</option>
+    <option name="Raigarh">Raigarh</option>
+    <option name="Jaipur">Jaipur</option></select></td>
+            </tr>
+
+        <tr>
+            <td colspan="2" align="center"><input type="submit" name="login" value="Search" style="font-size:18px; width: 100px " /></td>
+        </tr>
+                 
+                 </table>
+              
+    </form> 
+</div>
+</head>

@@ -1,0 +1,49 @@
+ <head>
+<!-- <link rel="stylesheet" type="text/css" href="../guestlogincss.css"> -->
+ <style type="text/css">
+    #login_form {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 38px;
+    /*border: 1px solid black;*/
+    
+    
+}
+
+body {
+    background-image: url("../images/guest.jpeg");
+    /*background-repeat: no-repeat;*/
+}
+ </style>
+<div id="login_form" align="center">
+    <form name="f1" method="post" action="/guestlogin1" id="f1">
+    <h2 style="color: blueviolet;">Guest Login   <img src="../images/dove.png" height="60px" width="60px"></h2> 
+        <table>
+        <div>    <tr style="size: 100px">
+                <td class="f1_label"></td><td><input type="text" name="username" value="" placeholder="UserName "  style="height:45px"/><br>
+                </td>
+            </tr>
+            <br>
+            </div>
+            <div>
+         <tr>
+                <td class="f1_label"></td><td><input type="password" name="password" value="" placeholder="Password" style="height:45px" />
+                </td>
+            </tr>
+            </div>
+
+        </table>
+        <br>
+        <div id="a1">
+        <button type="submit" name="login" value="Log In"  ><img src="../images/submit.png" style="width:100px"></button>
+                 <!--<input type="submit" name="login" value="Log In" style="font-size:18px; " /> -->
+                </div>
+                <h4>  New User ?<h4>
+
+                 <a name="/login11" href="/guestsignup" > <img src="../images/register.png" style="width: 200px"></a>
+    </form> 
+</div>
+</head>

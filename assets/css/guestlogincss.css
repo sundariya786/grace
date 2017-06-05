@@ -1,0 +1,33 @@
+#login_form {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 18px;
+    background-color:  #ccc;
+    border: 1px solid black;
+}
+
+#f1 {
+    background-color: #ccc;
+    
+    border-width: 1px;
+}
+#ff
+{
+
+    width: 800px;
+}
+#f2 {
+    background-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+}
+.f1_label {
+    white-space: nowrap;
+}
+.dropdown{
+  align:100px;
+
+}

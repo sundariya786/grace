@@ -1,0 +1,43 @@
+<head>
+<!-- <link rel="stylesheet" type="text/css" href="signinCss.css"> -->
+ <style type="text/css">
+    #login_form {
+    position: absolute;
+    /*top: 2%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 38px;*/
+}
+
+body {
+    background-image: url("../images/backgrounds-high-resolution-blurred-background1-blur-light-blue.jpg");
+}
+</style>
+
+
+<h2 style="color:Black" align="center">Location And Food details</h2>
+<div id="login_form">
+    <form name="f1" method="post" action="/fooddetails" id="f1">
+        <table>
+<tr>
+<td style="width: 200px"><b>Name  </b></td>
+<td style="width: 200px"><b>Contact No  </b></td>
+<td style="width: 200px"><b>Type Of Food  </b></td>
+<td style="width: 200px"><b>Amount Of Food  </b></td>
+<td style="width: 200px"><b>city  </b></td>
+<!-- <td><b></b></td>
+<td><b></b></td>
+<td><b></b></td>
+<td><b></b></td> -->
+</tr> 
+       
+        <% result.forEach(function(ind){ %>
+<tr><h3><td><%= ind.firstname %></td><td><%= ind.mobile %></td><td><%= ind.typeoffood %></td><td><%= ind.amountoffood %></td><td><%= ind.location %><br></td>
+ <% }) %>   
+ 
+
+        </table>
+    </form> 
+</div>
+</head>
